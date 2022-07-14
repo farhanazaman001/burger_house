@@ -1,0 +1,445 @@
+/*common start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 16px;
+	font-weight: 400;
+	color: #3d2514;
+}
+/*common end*/
+/*header start*/
+header{
+    background-image: url(../images/background_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+    padding: 16px 0;
+}
+
+.container{
+    width: 96%;
+    margin: 0 auto;
+    /*border: 1px solid black;*/
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img{
+	width: 100%;
+}
+.delivery{
+    display: block;
+    /*width: 20%;*/
+    float: right;
+    margin-top: 10px;
+}
+.logo2{
+    float: left;
+    width: 15%;
+}
+.logo2 img{
+    width: 100%;
+}
+.hp {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    word-spacing: 5px;
+    float: right;
+    margin-top: 10px;
+}
+.menu{
+    width: 85%;
+    /*border: 2px solid black;*/
+    float: right;
+    /*margin-top: 25px;*/
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+    float: left;
+    list-style: none;
+}
+.menu ul li a{
+    padding: 5px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    color: #3d2514;
+    transition: .5s;
+    text-transform: uppercase;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: #FF0000;
+}
+.details{
+    width: 42%;
+    float: left;
+    /*padding: 10px 10px;*/
+    /*border: 1px solid black;*/
+}
+.title{
+    font-size: 23px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline-block;
+    border-style: dashed;
+    padding: 5px 10px;
+    margin-top: 170px;
+    margin-bottom: 0;
+}
+.text{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 110px;
+    font-weight: 400;
+    margin: 0;
+    text-transform: uppercase;
+    text-shadow: 3px 3px white;
+}
+.headerbimg{
+    width: 49%;
+    float: right;
+    /* border: 1px solid green; */
+    padding: 53px 0;
+    padding-right: 55px;
+}
+.headerbimg img{
+    width: 100%;
+}
+/*header end*/
+/*burgertype start*/
+.burgertype{}
+.container2{
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 0;
+    overflow: hidden;
+    /*border: 1px solid green;*/
+}
+.b_left{
+    float: left;
+    width: 49%;
+    position: relative;
+}
+.b_left img{
+    width: 100%;
+}
+.p1{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-size: 29px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+}
+.p2{
+    position: absolute;
+    top: 42px;
+    left: 20px;
+    font-size: 42px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+}
+.b_right{
+    width: 49%;
+    float: right;
+}
+.br_t{
+    padding-bottom: 31px;
+    position: relative;
+}
+.br_t img{
+    width: 100%;
+}
+.p3{
+    position: absolute;
+    top: 81px;
+    left: 20px;
+    font-size: 42px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+}
+.br_b{
+    position: relative;
+}
+.br_b img{
+    width: 100%;
+}
+
+/*burgertype end*/
+/*about bur start*/
+.about_bur{
+
+}
+.container3{
+    width: 55%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+span{
+    display: inline-block;
+    background-color: #ffc045;
+    padding: 7px 20px;
+    transition: .5s;
+}
+span:hover{
+	color: #3d2514;
+}
+.abouth1{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #3d2514;
+    padding: 30px 0;
+}
+.aboutp{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #3d2514;
+    margin: 0 20px;
+}
+/*about bur end*/
+/*order start*/
+.order{}
+.container4{
+    margin: 125px auto;
+    width: 90%;
+    overflow: hidden;
+}
+.single{
+    width: 32%;
+    float: left;
+}
+.single_image{
+    width: 95%;
+}
+.single_image img{
+    width: 100%;
+}
+.shadow_image{
+    margin-left: 20px;
+    width: 95%;
+}
+.shadow_image img{
+    width: 100%;
+}
+h2{
+	margin: 2px auto;
+}
+.h2_single{
+    font-family: bebas_neue-regular;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #3d2514;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.p_single{
+    margin: 0 58px;
+    text-align: center;
+}
+.box_single{
+    margin-left: 96px;
+    width: 200px;
+    height: 60px;
+    background-color: #fbc334;
+    position: relative;
+    animation-name: test;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes test{
+	from{background-color: #FF8C00;}
+	to{background-color: #3d2514;}
+}
+.pbox_single{
+    padding: 20px;
+}
+.pbox_single a{
+    margin-left: 33px;
+    font-family: alpha_echo;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+}
+/*order end*/
+/*event start*/
+.card{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 12px 4px 21px #888888;
+    overflow: hidden;
+    margin-top: 90px;
+}
+.card_l{
+    width: 36%;
+    float: left;
+    padding: 31px 0;
+    padding-left: 43px;
+}
+.c_p1{
+    font-size: 29px;
+    font-weight: 400;
+    color: black;
+}
+.c_h2{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 34px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #3d2514;
+    margin-bottom: 30px;
+}
+.c_p2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 31px;
+    color: #3d3d3d;
+}
+.card_icon{
+    margin-top: 70px;
+}
+.card_r{
+    float: right;
+    width: 55%;
+    margin-top: 15px;  
+    margin-right: 19px;
+    margin-bottom: 15px;
+}
+.card_r img{
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 100%;
+}
+/*event end*/
+/*form start*/
+.form{
+    background-image: url(../images/formbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    min-height: 700px;
+}
+.container3 p{
+    margin-top: 25px;
+}
+form input{
+    margin-right: 10px;
+    margin-bottom: 15px;
+    width: 28%;
+    padding: 15px;
+    padding-right: 120px;
+    padding-left: 2px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px;
+    font-weight: 400;
+}
+.button{
+    border: none;
+    width: 46%;
+    background-color: #cc3333;
+    border-radius: 5px;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    padding: 9px 0 12px;
+    /*padding-left: 2px;*/
+    text-align: center;
+    margin-top: 0;
+}
+/*form end*/
+/*footer start*/
+
+.ft_bg{
+    margin: 0 auto;
+    width: 90%;
+    background-image: url(../images/ftbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.container5{
+    margin: 60px auto;
+    width: 90%;
+    overflow: hidden;
+}
+.l_footer{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.ft_text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+}
+.copyright{
+    margin-top: 179px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    display: inline-block;
+}
+.copyright a{
+    color: #ffffff;
+}
+.r_footer{
+    width: 35%;
+    float: right;
+}
+.address{
+    margin-top: 96px;
+    /*margin-bottom: 80px;*/
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    color: #ffffff;
+}
+.address a img{
+    margin-right: 20px;
+}
+.email{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    color: #ffffff;
+}
+.email a img{
+    margin-right: 20px;
+}
+.social_media {
+    margin-top: 218px;
+    margin-left: 250px;
+}
+.social_media a{
+    padding: 0 1px;
+}
+/*footer end*/
